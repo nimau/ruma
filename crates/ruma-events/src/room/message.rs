@@ -34,7 +34,7 @@ mod server_notice;
 mod text;
 mod video;
 
-pub use audio::{AudioInfo, AudioMessageEventContent};
+pub use audio::{AudioDetails, AudioInfo, AudioMessageEventContent};
 pub use emote::EmoteMessageEventContent;
 pub use file::{FileInfo, FileMessageEventContent};
 pub use image::ImageMessageEventContent;
